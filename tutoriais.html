@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre um Tutorial!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .box {
+            display: inline-block;
+            padding: 10px; /* Reduzi o padding para ajustar o texto */
+            margin: 10px;
+            width: 200px; /* Largura ajustada */
+            height: 100px;
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+            cursor: pointer;
+            font-size: 16px; /* Reduzi o tamanho da fonte */
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+            text-align: center; /* Centraliza o texto dentro da caixa */
+        }
+        .box:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Show de bola! Escolha o tutorial desejado!</h1>
+
+    <!-- Caixas com links para abrir em nova aba -->
+    <div class="box" onclick="window.open('sobre_o_menu.html', '_blank')">Sobre o Menu</div>
+    <div class="box" onclick="window.open('Tutorial_Campos_Adicionais_Etiqueta.html', '_blank')">Sobre campos adicionais na etiqueta</div>
+</body>
+</html>
